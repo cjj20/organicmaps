@@ -110,6 +110,7 @@ NS_SWIFT_NAME(BookmarksManager)
 
 - (NSArray<MWMBookmarkGroup *> *)sortedUserCategories;
 - (size_t)userCategoriesCount;
+- (BOOL)isEmpty;
 - (MWMBookmarkGroup *)categoryWithId:(MWMMarkGroupID)groupId;
 - (MWMBookmarkGroup *)categoryForBookmarkId:(MWMMarkID)bookmarkId;
 - (MWMBookmarkGroup *)categoryForTrackId:(MWMTrackID)trackId;

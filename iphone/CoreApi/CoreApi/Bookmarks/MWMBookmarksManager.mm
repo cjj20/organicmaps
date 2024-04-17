@@ -634,6 +634,15 @@ static BookmarkManager::SortingType convertSortingTypeToCore(MWMBookmarksSorting
   return self.bm.GetBmGroupsCount();
 }
 
+- (BOOL)isEmpty {
+  auto const & list = self.bm.GetUnsortedBmGroupsIdList();
+  for (auto const & groupId : list) {
+    if (self.bm.GetUserMarkIds(groupId).size() > 0 || self.bm.GetTrackIds(groupId).size() > 0)
+      return NO;
+  }
+  return YES;
+}
+
 - (void)updateBookmark:(MWMMarkID)bookmarkId
             setGroupId:(MWMMarkGroupID)groupId
                  title:(NSString *)title
