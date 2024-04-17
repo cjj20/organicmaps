@@ -87,10 +87,10 @@ private:
 };
 }  // namespace
 
+// This unit test creates a window so can't be run in GUI-less Linux machine.
+// Make sure that the QT_QPA_PLATFORM=offscreen environment variable is set.
 UNIT_TEST(GlyphLoadingTest)
 {
-  // This unit test creates window so can't be run in GUI-less Linux machine.
-#ifndef OMIM_OS_LINUX
   GlyphRenderer renderer;
 
   renderer.SetString("ØŒÆ");
@@ -104,5 +104,4 @@ UNIT_TEST(GlyphLoadingTest)
 
   renderer.SetString("മനക്കലപ്പടി");
   RunTestLoop("Test4", std::bind(&GlyphRenderer::RenderGlyphs, &renderer, _1));
-#endif
 }
