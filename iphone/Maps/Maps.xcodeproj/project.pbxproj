@@ -462,10 +462,17 @@
 		CDCA278622451F5000167D87 /* RouteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA278522451F5000167D87 /* RouteInfo.swift */; };
 		CDCA278E2248F34C00167D87 /* MWMRoutingManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDCA278B2248F34C00167D87 /* MWMRoutingManager.mm */; };
 		ED0B1C312BC2951F00FB8EDD /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = ED0B1C302BC2951F00FB8EDD /* PrivacyInfo.xcprivacy */; };
+		ED0F4AA92BCD536100D5F7A8 /* SettingsTableViewiCloudSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F4AA82BCD536000D5F7A8 /* SettingsTableViewiCloudSwitchCell.swift */; };
+		ED0F4AAD2BCD9A6500D5F7A8 /* SynchronizationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F4AAC2BCD9A6500D5F7A8 /* SynchronizationError.swift */; };
 		ED1080A72B791CFE0023F27E /* SocialMediaCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1080A62B791CFE0023F27E /* SocialMediaCollectionViewHeader.swift */; };
 		ED1263AB2B6F99F900AD99F3 /* UIView+AddSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1263AA2B6F99F900AD99F3 /* UIView+AddSeparator.swift */; };
 		ED1ADA332BC6B1B40029209F /* CarPlayServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1ADA322BC6B1B40029209F /* CarPlayServiceTests.swift */; };
 		ED3EAC202B03C88100220A4A /* BottomTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EAC1F2B03C88100220A4A /* BottomTabBarButton.swift */; };
+		ED4836A62BC9BBD5004FA089 /* CloudStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4836A02BC9BBD5004FA089 /* CloudStorageManager.swift */; };
+		ED4836A72BC9BBD5004FA089 /* MetadataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4836A12BC9BBD5004FA089 /* MetadataItem.swift */; };
+		ED4836B92BC9BE61004FA089 /* DefaultLocalDirectoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4836B52BC9BE61004FA089 /* DefaultLocalDirectoryMonitor.swift */; };
+		ED4836BA2BC9BE61004FA089 /* iCloudDocumentsDirectoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4836B82BC9BE61004FA089 /* iCloudDocumentsDirectoryMonitor.swift */; };
+		ED4836D12BC9C146004FA089 /* SynchronizationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4836B12BC9BD46004FA089 /* SynchronizationStateManager.swift */; };
 		ED9966802B94FBC20083CE55 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99667D2B94FBC20083CE55 /* ColorPicker.swift */; };
 		EDBD68072B625724005DD151 /* LocationServicesDisabledAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDBD68062B625724005DD151 /* LocationServicesDisabledAlert.xib */; };
 		EDBD680B2B62572E005DD151 /* LocationServicesDisabledAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD680A2B62572E005DD151 /* LocationServicesDisabledAlert.swift */; };
@@ -1347,10 +1354,17 @@
 		CDE0F3AD225B8D45008BA5C3 /* MWMSpeedCameraManagerMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWMSpeedCameraManagerMode.h; sourceTree = "<group>"; };
 		ED097E762BB80C320006ED01 /* OMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0B1C302BC2951F00FB8EDD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		ED0F4AA82BCD536000D5F7A8 /* SettingsTableViewiCloudSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewiCloudSwitchCell.swift; sourceTree = "<group>"; };
+		ED0F4AAC2BCD9A6500D5F7A8 /* SynchronizationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizationError.swift; sourceTree = "<group>"; };
 		ED1080A62B791CFE0023F27E /* SocialMediaCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaCollectionViewHeader.swift; sourceTree = "<group>"; };
 		ED1263AA2B6F99F900AD99F3 /* UIView+AddSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSeparator.swift"; sourceTree = "<group>"; };
 		ED1ADA322BC6B1B40029209F /* CarPlayServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayServiceTests.swift; sourceTree = "<group>"; };
 		ED3EAC1F2B03C88100220A4A /* BottomTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBarButton.swift; sourceTree = "<group>"; };
+		ED4836A02BC9BBD5004FA089 /* CloudStorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudStorageManager.swift; sourceTree = "<group>"; };
+		ED4836A12BC9BBD5004FA089 /* MetadataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetadataItem.swift; sourceTree = "<group>"; };
+		ED4836B12BC9BD46004FA089 /* SynchronizationStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizationStateManager.swift; sourceTree = "<group>"; };
+		ED4836B52BC9BE61004FA089 /* DefaultLocalDirectoryMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLocalDirectoryMonitor.swift; sourceTree = "<group>"; };
+		ED4836B82BC9BE61004FA089 /* iCloudDocumentsDirectoryMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloudDocumentsDirectoryMonitor.swift; sourceTree = "<group>"; };
 		ED48BBB817C2B1E2003E7E92 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		ED48BBB917C2B1E2003E7E92 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		ED99667D2B94FBC20083CE55 /* ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
@@ -1904,6 +1918,7 @@
 		340475281E081A4600C92850 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				ED48369E2BC9BBD5004FA089 /* iCloud */,
 				994AEBE323AB763C0079B81F /* Theme */,
 				993F54F6237C622700545511 /* DeepLink */,
 				CDCA27822245090900167D87 /* EventListening */,
@@ -2970,6 +2985,19 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		ED48369E2BC9BBD5004FA089 /* iCloud */ = {
+			isa = PBXGroup;
+			children = (
+				ED4836A02BC9BBD5004FA089 /* CloudStorageManager.swift */,
+				ED4836B52BC9BE61004FA089 /* DefaultLocalDirectoryMonitor.swift */,
+				ED4836B82BC9BE61004FA089 /* iCloudDocumentsDirectoryMonitor.swift */,
+				ED4836B12BC9BD46004FA089 /* SynchronizationStateManager.swift */,
+				ED4836A12BC9BBD5004FA089 /* MetadataItem.swift */,
+				ED0F4AAC2BCD9A6500D5F7A8 /* SynchronizationError.swift */,
+			);
+			path = iCloud;
+			sourceTree = "<group>";
+		};
 		ED99667C2B94FBC20083CE55 /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -3576,6 +3604,7 @@
 				F6E2FD381E097BA00083EBEC /* SettingsTableViewLinkCell.swift */,
 				F6E2FD391E097BA00083EBEC /* SettingsTableViewSelectableCell.swift */,
 				F6E2FD3A1E097BA00083EBEC /* SettingsTableViewSwitchCell.swift */,
+				ED0F4AA82BCD536000D5F7A8 /* SettingsTableViewiCloudSwitchCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -4041,15 +4070,20 @@
 				993DF12123F6BDB100AC231A /* UIViewControllerRenderer.swift in Sources */,
 				34D3AFF61E37A36A004100F9 /* UICollectionView+Cells.swift in Sources */,
 				4767CDA420AAF66B00BD8166 /* NSAttributedString+HTML.swift in Sources */,
+				ED4836D12BC9C146004FA089 /* SynchronizationStateManager.swift in Sources */,
 				6741A9A91BF340DE002C974C /* MWMDefaultAlert.mm in Sources */,
+				ED4836A72BC9BBD5004FA089 /* MetadataItem.swift in Sources */,
+				ED4836B92BC9BE61004FA089 /* DefaultLocalDirectoryMonitor.swift in Sources */,
 				990F33B624BC915200D0F426 /* SearchActionBarView.swift in Sources */,
 				99514BBA23E82B450085D3A7 /* ElevationProfileViewController.swift in Sources */,
 				340708781F2B5D6C00029ECC /* DimBackground.swift in Sources */,
 				3490D2DF1CE9DD2500D0B838 /* MWMSideButtons.mm in Sources */,
 				99AAEA76244DA7BF0039D110 /* BottomMenuTransitioning.swift in Sources */,
+				ED4836A62BC9BBD5004FA089 /* CloudStorageManager.swift in Sources */,
 				F6E2FDF81E097BA00083EBEC /* MWMOpeningHoursAllDayTableViewCell.mm in Sources */,
 				340B33C61F3AEFDB00A8C1B4 /* MWMRouter+RouteManager.mm in Sources */,
 				F6E2FE191E097BA00083EBEC /* MWMOpeningHoursTimeSpanTableViewCell.mm in Sources */,
+				ED0F4AA92BCD536100D5F7A8 /* SettingsTableViewiCloudSwitchCell.swift in Sources */,
 				4757D6212535BB6E0062364F /* BookmarksListInterfaces.swift in Sources */,
 				F6E2FDEC1E097BA00083EBEC /* MWMOpeningHoursAddClosedTableViewCell.mm in Sources */,
 				99C964292428C0F700E41723 /* PlacePageHeaderPresenter.swift in Sources */,
@@ -4060,6 +4094,7 @@
 				340475811E081B3300C92850 /* iosOGLContextFactory.mm in Sources */,
 				99F3EB0623F418A200C713F8 /* PlacePagePresenter.swift in Sources */,
 				AA1C7E3E269A2DD600BAADF2 /* EditTrackViewController.swift in Sources */,
+				ED4836BA2BC9BE61004FA089 /* iCloudDocumentsDirectoryMonitor.swift in Sources */,
 				34AB66561FC5AA330078E451 /* TransportTransitPedestrian.swift in Sources */,
 				993DF0C823F6BD0600AC231A /* ElevationDetailsViewController.swift in Sources */,
 				BB8123D62130427E00ADE512 /* MetalContextFactory.mm in Sources */,
@@ -4436,6 +4471,7 @@
 				3454D7DA1E07F045004AF2AD /* UILabel+RuntimeAttributes.m in Sources */,
 				34AB66531FC5AA330078E451 /* MWMiPadRoutePreview.m in Sources */,
 				3454D7E31E07F045004AF2AD /* UITextView+RuntimeAttributes.m in Sources */,
+				ED0F4AAD2BCD9A6500D5F7A8 /* SynchronizationError.swift in Sources */,
 				F6A2184A1CA3F26800BE2CC6 /* MWMEditorViralActivityItem.mm in Sources */,
 				993DF10923F6BDB100AC231A /* IFonts.swift in Sources */,
 				47699A0821F08E37009E6585 /* NSDate+TimeDistance.m in Sources */,
