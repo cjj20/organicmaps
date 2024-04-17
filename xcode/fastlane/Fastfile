@@ -37,26 +37,10 @@ platform :ios do
       )
       # Organic Maps certificates.
       import_certificate(
-        certificate_path: 'keys/CertificatesDev.p12',
-        certificate_password: ENV['APPSTORE_CERTIFICATE_PASSWORD'],
-        keychain_name: ENV['MATCH_KEYCHAIN_NAME'],
-        keychain_password: ENV['MATCH_KEYCHAIN_PASSWORD']
-      )
-      import_certificate(
         certificate_path: 'keys/CertificatesDistr.p12',
         certificate_password: ENV['APPSTORE_CERTIFICATE_PASSWORD'],
         keychain_name: ENV['MATCH_KEYCHAIN_NAME'],
         keychain_password: ENV['MATCH_KEYCHAIN_PASSWORD']
-      )
-      get_provisioning_profile(
-        api_key_path: 'keys/appstore.json',
-        app_identifier: 'app.organicmaps',
-        provisioning_name: 'CarPlay Release',
-        ignore_profiles_with_different_name: true,
-        readonly: true,
-        development: true,
-        skip_install: false,
-        filename: 'keys/CarPlay_Release.mobileprovision'
       )
       get_provisioning_profile(
         api_key_path: 'keys/appstore.json',
