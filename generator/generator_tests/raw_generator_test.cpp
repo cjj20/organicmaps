@@ -513,6 +513,8 @@ UNIT_TEST(Relation_Wiki)
         TEST(fb.GetMetadata().Get(feature::Metadata::FMD_WIKIPEDIA).empty(), ());
         break;
       }
+      case feature::GeomType::Area:              // fallthrough
+      case feature::GeomType::Undefined: break;  // Do nothing
       }
     });
 
